@@ -1,0 +1,2 @@
+Togglable Dynamic Tab: kono link a click korle shei related info show korbe.
+class="tab-pane"    ........ata diye hide kora hoy
