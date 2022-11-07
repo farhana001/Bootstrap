@@ -1,0 +1,5 @@
+Card: card er 3 ta part thake:
+	1.header
+	2.body
+	3.footer
+Click able card er jnno "stretched-link" ai class use korte hobe.Ta hole card a click korlei link aa niye jbe.
