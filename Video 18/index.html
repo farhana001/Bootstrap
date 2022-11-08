@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="author" content="John Doe"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- favicon -->
+    <link rel="icon" href="assets/img/favicon.png"/>
+    <!-- bs 5 css  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container ">
+        <h1>Registration Form</h1>
+
+        <form action="" class="p-3 bg-danger w-50 text-white">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+    
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control">
+                <p class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, porro.</p>
+            </div> 
+            <div class=" mb-3">
+                <div class="form-check-inline">
+                    <label for="male">Male</label>
+                    <input type="radio" class="form-check-input" id="male">
+                </div>  
+                <div class="form-check-inline">
+                    <label for="female">Female</label>
+                    <input type="radio" class="form-check-input" id="female">
+                </div>  
+            </div>
+
+            <div class=" mb-3">
+                <div class="form-check">
+                    <label for="tnc">Terms & Conditions</label>
+                    <input type="checkbox" class="form-check-input" id="tnc">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="dept">Department:</label>
+                <select name="dept" id="dept" class="form-select-inline">
+                    <option value="select"></option>
+                    <option value="cse">cse</option>
+                    <option value="cse">cse</option>
+                    <option value="cse">cse</option>
+                    <option value="cse">cse</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <button class="btn btn-info ">submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- jquery js -->
+   <script src="assets/js/jquery.min.js"></script>
+   <!-- bs 5 js-->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <!-- custom js  -->
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
