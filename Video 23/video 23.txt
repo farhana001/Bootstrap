@@ -1,0 +1,4 @@
+Flex: By default flex row te kaj kore. jodi column aa kaj koraite chai ta hole "flex-column" ai class use korte hobe.
+
+Reverse করতে চাইলে "d-flex-reverse" এই   class use করতে হবে।
+ 
